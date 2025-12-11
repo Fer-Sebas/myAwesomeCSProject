@@ -12,8 +12,16 @@ print("C. Orange")
 # Accept user's choice (A, B, C)
 
 answer1 = input("What is your answer?")
+answer1Clean = answer1.lower()
+answer1Clean = answer1.uppe()
 
 # Check if the choice is correct
+
+if answer1Clean == "b" :
+    print("Correct")
+
+if answer1Clean != "b" :
+    print("Incorrect")
 
 # Tell the user if the answer was right or wrong
 # Clue: "if" this, do that, "else" do that other that
